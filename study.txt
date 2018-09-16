@@ -50,6 +50,18 @@ https://blog.csdn.net/happylee6688/article/details/42266465
 Java 生成数字证书系列（四）生成数字证书（续）
 https://blog.csdn.net/happylee6688/article/details/42294037
 
+CFCA : 中国金融认证中心(China Financial Certification Authority)
+
+签名算法有哪些？
+sha1RSA
+
+
+.pfx
+
+.cer
+
+.p12
+
 
 
 
