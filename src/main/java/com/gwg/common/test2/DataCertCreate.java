@@ -1,4 +1,4 @@
-package com.gwg.common;
+package com.gwg.common.test2;
 
 import sun.misc.BASE64Encoder;
 
@@ -27,18 +27,8 @@ import java.util.Date;
 import java.util.Enumeration;
 
 import org.bouncycastle.asn1.x509.X509Name;
-import org.bouncycastle.jce.X509V3CertificateGenerator;
+import org.bouncycastle.x509.X509V3CertificateGenerator;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
-
-import sun.misc.BASE64Encoder;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.math.BigInteger;
-import java.security.*;
-import java.security.cert.CertificateFactory;
-import java.util.Enumeration;
 
 public class DataCertCreate {
     private String path = "D:/";

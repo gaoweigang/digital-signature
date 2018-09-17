@@ -1,14 +1,14 @@
-package com.gwg.common;
+package com.gwg.common.test1.cer;
 
-import com.cacss.jsceu.context.CAConfig;
-import com.cacss.jsceu.util.CertUtil;
-import com.cacss.jsceu.util.DateUtil;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.x509.X509V3CertificateGenerator;
 
 import javax.security.auth.x500.X500Principal;
+import java.math.BigInteger;
 import java.security.*;
 import java.security.cert.X509Certificate;
+import java.util.Calendar;
+import java.util.Date;
 
 
 /**
@@ -63,12 +63,13 @@ public class BaseCert {
             PrivateKey priKey = keyPair.getPrivate();
             X509V3CertificateGenerator certGen = new X509V3CertificateGenerator();
             // 设置序列号
-            certGen.setSerialNumber(CertUtil.getNextSerialNumber());
+            certGen.setSerialNumber(this.getNextSerialNumber());//序列号，同一身份验证机构签发的证书序列号是唯一的，在这里我们使用时间戳
             // 设置颁发者
             certGen.setIssuerDN(new X500Principal(CAConfig.CA_ROOT_ISSUER));
             // 设置有效期
-            certGen.setNotBefore(DateUtil.getCurrDate());
-            certGen.setNotAfter(DateUtil.getNextYear());
+            Date startDate = new Date();
+            certGen.setNotBefore(startDate);//有效开始时间
+            certGen.setNotAfter(this.addTime(startDate, 1));//有效结束时间
             // 设置使用者
             certGen.setSubjectDN(new X500Principal(CAConfig.CA_DEFAULT_SUBJECT + user));
             // 公钥
@@ -80,5 +81,30 @@ public class BaseCert {
             System.out.println(e.getClass() + e.getMessage());
         }
         return cert;
+    }
+
+    //序列号，同一身份验证机构签发的证书序列号是唯一的，在这里我们使用时间戳
+    private BigInteger getNextSerialNumber(){
+        return new BigInteger(String.valueOf(System.currentTimeMillis()));
+    }
+
+    private Date addTime(Date date, int add) {
+        if (null == date) {
+            return null;
+        }
+        Calendar begin = Calendar.getInstance();
+        begin.setTime(date);
+        //begin.add(Calendar.YEAR, add);
+        begin.add(Calendar.HOUR, add);//测试，1个小时之后无效
+        return begin.getTime();
+    }
+
+    //测试
+    public static void main(String[] args) {
+        BaseCert baseCert = new BaseCert();
+        System.out.println(baseCert.getNextSerialNumber());
+        Date startDate = new Date();
+        System.out.println("有效开始时间："+startDate+", 有效结束时间："+baseCert.addTime(startDate, 1));
+
     }
 }

@@ -1,0 +1,41 @@
+参考：https://blog.csdn.net/qq_29583513/article/details/78866461
+
+1、为什么要使用BouncyCastle？
+我们平常都使用jdk自带的加密包对数据进行加密，加密方式也都是使用的默认的，如果我们想选择别的加密方式，发现会报错，比如如下代码：
+
+Cipher cipher = Cipher.getInstance("AES/ECB/PKCS7Padding");
+cipher.init(Cipher.ENCRYPT_MODE, new SecretKeySpec("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA".getBytes("UTF-8"), "AES"));
+cipher.doFinal("QWEASDZS".getBytes("UTF-8"));
+这时候我们就需要借助BouncyCastle了。
+
+
+2、如何使用BouncyCastle？
+2.1、方式一
+（1）去BouncyCastle官网下载provider的包，然后放入$JAVA_HOME\jre\lib\ext目录下；
+
+（2）修改配置文件$JAVA_HOME\jre\lib\security\java.security，加入一行配置：security.provider.按顺序填数字=org.bouncycastle.jce.provider.BouncyCastleProvider
+
+（3）代码如下：
+
+Cipher cipher = Cipher.getInstance("AES/ECB/PKCS7Padding");
+cipher.init(Cipher.ENCRYPT_MODE, new SecretKeySpec("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA".getBytes("UTF-8"), "AES"));
+cipher.doFinal("QWEASDZS".getBytes("UTF-8"));
+
+2.2、方式二
+（1）在代码中通过maven引入BouncyCastle的包
+
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk15on</artifactId>
+    <version>1.56</version>
+</dependency>
+
+（2）无需像方式一一样修改配置文件，直接在代码中手动添加provider：
+
+Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
+Cipher cipher = Cipher.getInstance("AES/ECB/PKCS7Padding");
+cipher.init(Cipher.ENCRYPT_MODE, new SecretKeySpec("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA".getBytes("UTF-8"), "AES"));
+cipher.doFinal("QWEASDZS".getBytes("UTF-8"));
+
+3、注意点
+出于某些原因，可能需要去官网下载JCE包，替换掉$JAVA_HOME\jre\lib\security目录下的内容，其次密钥的长度也要注意。

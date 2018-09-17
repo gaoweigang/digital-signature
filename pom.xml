@@ -79,12 +79,20 @@
           <version>1.59</version>
       </dependency>
 
-      <!-- https://mvnrepository.com/artifact/cryptix-jce/cryptix-jce-provider -->
+      <!-- https://mvnrepository.com/artifact/junit/junit -->
       <dependency>
-          <groupId>cryptix-jce</groupId>
-          <artifactId>cryptix-jce-provider</artifactId>
-          <version>20050328</version>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.12</version>
       </dependency>
+
+      <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.4</version>
+      </dependency>
+
 
 
 
