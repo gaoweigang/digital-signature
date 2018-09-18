@@ -1,7 +1,6 @@
-package com.gwg.common.test1.pfx;
+package com.gwg.demo.test1.pfx;
 
 import com.gwg.utils.Base64Utils;
-import com.gwg.utils.StringUtils;
 import org.apache.commons.codec.binary.Base64;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -11,14 +10,12 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
 import java.io.StringReader;
-import java.security.KeyFactory;
 import java.security.MessageDigest;
 import java.security.PublicKey;
 import java.security.Signature;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
-import java.security.spec.X509EncodedKeySpec;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -83,7 +80,7 @@ public class CerTest {
         //biz_resp_code=0000&biz_resp_msg=交易成功&member_id=1222497&order_id=2389181095&resp_code=S&succ_amt=217640&succ_time=2018-09-17 18:55:23&terminal_id=41474&trans_id=201809171855210332193385
         String rSignVStr = coverMap2String(rDateArry);
         logger.info("[宝付协议代扣]返回SHA-1摘要字串："+rSignVStr);
-        String rSignature = sha1X16(rSignVStr, "UTF-8");//签名
+        String rSignature = sha1X16(rSignVStr, "UTF-8");//生成摘要
         logger.info("[宝付协议代扣]返回SHA-1摘要结果："+rSignature);
 
         //获取公钥
@@ -156,11 +153,6 @@ public class CerTest {
         }
         return sourceBytes;
     }
-
-    public static void main(String[] args) {
-        System.out.println(isBlank(" "));
-    }
-
 
     /**
      * sha1计算后进行16进制转换

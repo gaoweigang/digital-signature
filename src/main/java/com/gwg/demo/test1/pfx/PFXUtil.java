@@ -1,4 +1,4 @@
-package com.gwg.common.test1.pfx;
+package com.gwg.demo.test1.pfx;
 
 import com.gwg.utils.Base64Utils;
 import org.apache.commons.codec.binary.Base64;

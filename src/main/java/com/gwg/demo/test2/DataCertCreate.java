@@ -1,4 +1,4 @@
-package com.gwg.common.test2;
+package com.gwg.demo.test2;
 
 import sun.misc.BASE64Encoder;
 

@@ -1,4 +1,4 @@
-package com.gwg.common.test1.pfx;
+package com.gwg.demo.test1.pfx;
 
 import org.junit.Test;
 import org.slf4j.Logger;

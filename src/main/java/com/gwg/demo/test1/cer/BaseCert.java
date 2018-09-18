@@ -1,7 +1,10 @@
-package com.gwg.common.test1.cer;
+package com.gwg.demo.test1.cer;
 
+import org.apache.commons.codec.binary.Base64;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.x509.X509V3CertificateGenerator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.security.auth.x500.X500Principal;
 import java.math.BigInteger;
@@ -12,16 +15,13 @@ import java.util.Date;
 
 
 /**
- * Created With IntelliJ IDEA.
- *
- * @author : lee
- * @group : sic-ca
- * @Date : 2014/12/30
  * @Comments : 证书类
  * @Version : 1.0.0
  */
-@SuppressWarnings("all")
+
 public class BaseCert {
+
+    private static final Logger logger = LoggerFactory.getLogger(BaseCert.class);
     /**
      * BouncyCastleProvider
      */
@@ -59,8 +59,12 @@ public class BaseCert {
             KeyPair keyPair = this.kpg.generateKeyPair();
             // 公钥
             PublicKey pubKey = keyPair.getPublic();
+            logger.info("======>公钥Base64字符串:{}", Base64.encodeBase64String(pubKey.getEncoded()));
+
             // 私钥
             PrivateKey priKey = keyPair.getPrivate();
+            logger.info("=====>私钥Base64字符串:{}", Base64.encodeBase64String(priKey.getEncoded()));
+            logger.info("==========================================================================");
             X509V3CertificateGenerator certGen = new X509V3CertificateGenerator();
             // 设置序列号
             certGen.setSerialNumber(this.getNextSerialNumber());//序列号，同一身份验证机构签发的证书序列号是唯一的，在这里我们使用时间戳
