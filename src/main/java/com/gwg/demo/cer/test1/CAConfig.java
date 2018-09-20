@@ -1,4 +1,4 @@
-package com.gwg.demo.test1.cer;
+package com.gwg.demo.cer.test1;
 
 public interface CAConfig {
 

@@ -1,4 +1,4 @@
-package com.gwg.demo.test1.cer;
+package com.gwg.demo.cer.test1;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

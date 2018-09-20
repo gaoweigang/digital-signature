@@ -1,4 +1,4 @@
-package com.gwg.demo.test1.cer;
+package com.gwg.demo.cer.test1;
 
 import org.apache.commons.codec.binary.Base64;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
@@ -15,6 +15,7 @@ import java.util.Date;
 
 
 /**
+ *
  * @Comments : 证书类
  * @Version : 1.0.0
  */
