@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a0c731b-c248-4472-83cc-43781dc5dfdd" name="Default" comment="" />
+    <list default="true" id="5a0c731b-c248-4472-83cc-43781dc5dfdd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output.error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cryptix_jce_cryptix_jce_provider_20050328.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +20,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="X509Certificate.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/security/cert/X509Certificate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+            <state relative-caret-position="-82">
+              <caret line="347" column="27" lean-forward="false" selection-start-line="347" selection-start-column="27" selection-end-line="347" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PfxAndCerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test2/PfxAndCerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1480">
+              <caret line="97" column="48" lean-forward="false" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="常用加密解密算法【RSA、AES、DES、MD5】介绍和使用.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/常用加密解密算法【RSA、AES、DES、MD5】介绍和使用.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/CerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-650">
+              <caret line="58" column="9" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2579#2594#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/SignTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="X509v3CertificateBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59-sources.jar!/org/bouncycastle/cert/X509v3CertificateBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="194" column="104" lean-forward="false" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -25,57 +88,41 @@
       <file leaf-file-name="study.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/study.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="-34">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeanUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/BeanUtil.java">
+      <file leaf-file-name="PfxTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/PfxTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base64Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/Base64Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3869">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="1394">
+              <caret line="95" column="48" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataCertCreate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/common/DataCertCreate.java">
+      <file leaf-file-name="PFXUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/PFXUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="164" column="9" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="164" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateCa.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test1/GenerateCa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="32" column="24" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="32" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,6 +132,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -92,6 +140,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>verifySign</find>
+      <find>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGRONFr8GM7QDjwe3VTkzbPftm4ySvgu6VLbaoXyyb7evTs7ldJT8cbJ7B62qqcqfTkMEaVDY3gwqfJd7gpN/0oeqakICfS/rb/nqalHd6kgXUHA3KJWow/vzPclr8T8QBW7GcoF2O6CgaNp+EqqHxVW8dkecKkEL5o9QRpSH0GQIDAQAB</find>
+      <find>destBytes</find>
+      <find>certificateFactory</find>
+      <find>sha1WithRSAEncryption_oid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,33 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/shiro/demo/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/shiro/demo/bean/BeanConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/config/Swagger2Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/config/TestConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/security/test/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/Sign.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/com/gwg/commons.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/commons.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/BootClasspathFIile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/RSAUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/PaymentSecurity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/ObjectCopy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/DataCertCreate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/Base64Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/SHAUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/SignUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/Md5Algorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwg/utils/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/CAConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/BaseCert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/GenerateCa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/DateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test2/DataCertCreate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/BaseCert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/GenerateCa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/pfx/test.java" />
+        <option value="$PROJECT_DIR$/为什么要使用BouncyCastle.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/cer/GenerateCa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/pfx/PfxTest.java" />
+        <option value="$PROJECT_DIR$/pfx证书与cer证书的区别" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/pfx/PFXUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test2/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/sign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/TlUserVerifyReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/Info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/ValidReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/test1/pfx/CerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/SignTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/UserVerifyReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/test/test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/test/TransReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/test1/SignTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/sign/test/SignTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/encryptanddecrypt/test1/TransReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/common/encryptanddecrypt/test1/EncryptAndDecryptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test2/TransReq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test1/EncryptAndDecryptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test2/RsaConst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test2/EncryptAndDecryptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/cer/GenerateCa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test1/SignTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/DigitalSignatureDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/CertTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/DigestAlgEnum.java" />
+        <option value="C:/work/maven_repository/repository/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/org/apache/commons/codec/Charsets.java" />
+        <option value="C:/work/maven_repository/repository/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/org/apache/commons/codec/binary/Base64.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/SignTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/cer/BaseCert.java" />
         <option value="$PROJECT_DIR$/study.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test1/BaseCert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test2/CerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test2/PfxAndCerTest.java" />
+        <option value="$PROJECT_DIR$/常用加密解密算法【RSA、AES、DES、MD5】介绍和使用.txt" />
       </list>
     </option>
   </component>
@@ -155,8 +231,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="977" />
     <option name="width" value="160" />
     <option name="height" value="39" />
   </component>
@@ -467,8 +542,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -502,7 +575,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="digital-signature" type="b2602c69:ProjectViewProjectNode" />
@@ -510,7 +583,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digital-signature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digital-signature" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digital-signature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digital-signature" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pfx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digital-signature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digital-signature" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="digital-signature" type="b2602c69:ProjectViewProjectNode" />
@@ -523,6 +620,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,26 +632,29 @@
     <property name="nodejs_interpreter_path" value="C:/work/software/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/git_workspace/payroute" />
+    <property name="last_opened_file_path" value="E:/git_workspace/ztmkt_server" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gwg.demo.encryptanddecrypt.test2" />
+      <recent name="com.gwg.common.sign" />
+      <recent name="com.gwg.common.test1" />
       <recent name="com.gwg.utils" />
       <recent name="com.gwg.common" />
-      <recent name="com.gwg.demo.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\shiro_workspace\digital-signature\images" />
+      <recent name="E:\shiro_workspace\digital-signature\src\main\java\com\gwg\demo\encryptanddecrypt\test1" />
       <recent name="E:\shiro_workspace\digital-signature\src\main\java\com\gwg\utils" />
       <recent name="E:\shiro_workspace\digital-signature\src\main\java" />
       <recent name="E:\shiro_workspace\digital-signature\src\main\resources" />
-      <recent name="E:\shiro_workspace\digital-signature" />
-      <recent name="E:\shiro_workspace\springboot_swagger2\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -567,12 +669,137 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.PfxAndCerTest.testGenerateCer">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gwg.demo.Application" />
       <module name="springboot_swagger2" />
       <envs />
+    </configuration>
+    <configuration name="CerTest.testGenerateCer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gwg.demo.cer.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="digital-signature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gwg.demo.cer.test2" />
+      <option name="MAIN_CLASS_NAME" value="com.gwg.demo.cer.test2.CerTest" />
+      <option name="METHOD_NAME" value="testGenerateCer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PfxAndCerTest.testGenerateCer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gwg.demo.cer.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="digital-signature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gwg.demo.cer.test2" />
+      <option name="MAIN_CLASS_NAME" value="com.gwg.demo.cer.test2.PfxAndCerTest" />
+      <option name="METHOD_NAME" value="testGenerateCer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SignTest.testBase64" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gwg.demo.sign.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="digital-signature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gwg.demo.sign.test2" />
+      <option name="MAIN_CLASS_NAME" value="com.gwg.demo.sign.test2.SignTest" />
+      <option name="METHOD_NAME" value="testBase64" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SignTest.testPrivateKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gwg.demo.sign.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="digital-signature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gwg.demo.sign.test2" />
+      <option name="MAIN_CLASS_NAME" value="com.gwg.demo.sign.test2.SignTest" />
+      <option name="METHOD_NAME" value="testPrivateKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SignTest.testPublicKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gwg.demo.sign.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="digital-signature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gwg.demo.sign.test2" />
+      <option name="MAIN_CLASS_NAME" value="com.gwg.demo.sign.test2.SignTest" />
+      <option name="METHOD_NAME" value="testPublicKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -667,6 +894,23 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SignTest.testPrivateKey" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SignTest.testPublicKey" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SignTest.testBase64" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CerTest.testGenerateCer" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PfxAndCerTest.testGenerateCer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PfxAndCerTest.testGenerateCer" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CerTest.testGenerateCer" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SignTest.testBase64" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SignTest.testPublicKey" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SignTest.testPrivateKey" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -688,44 +932,120 @@
       <workItem from="1536841214067" duration="607000" />
       <workItem from="1536841862800" duration="1471000" />
       <workItem from="1536891344570" duration="8261000" />
+      <workItem from="1537072722631" duration="74796000" />
     </task>
+    <task id="LOCAL-00001" summary="完善">
+      <created>1537077140345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537077140345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完善">
+      <created>1537077328582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537077328582</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完善">
+      <created>1537188472944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537188472944</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试私钥 公钥 证书">
+      <created>1537275387130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537275387130</updated>
+    </task>
+    <task id="LOCAL-00005" summary="测试私钥 公钥 证书">
+      <created>1537438665512</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537438665512</updated>
+    </task>
+    <task id="LOCAL-00006" summary="测试私钥 公钥 证书">
+      <created>1537526762965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537526762965</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CerTest_testGenerateCer - 2018.09.20 at 14h 05m 06s.xml">
+      <configuration name="CerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CerTest_testGenerateCer - 2018.09.20 at 14h 44m 01s.xml">
+      <configuration name="CerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CerTest_testGenerateCer - 2018.09.20 at 15h 18m 42s.xml">
+      <configuration name="CerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CerTest_testGenerateCer - 2018.09.20 at 15h 30m 58s.xml">
+      <configuration name="CerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CerTest_testGenerateCer - 2018.09.20 at 15h 42m 42s.xml">
+      <configuration name="CerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CerTest_testGenerateCer - 2018.09.20 at 15h 54m 47s.xml">
+      <configuration name="CerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CerTest_testGenerateCer - 2018.09.20 at 16h 05m 44s.xml">
+      <configuration name="CerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PfxAndCerTest_testGenerateCer - 2018.09.20 at 18h 14m 24s.xml">
+      <configuration name="PfxAndCerTest.testGenerateCer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testBase64 - 2018.09.19 at 13h 41m 17s.xml">
+      <configuration name="SignTest.testBase64" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignTest_testBase64 - 2018.09.19 at 13h 43m 36s.xml">
+      <configuration name="SignTest.testBase64" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17322000" />
+    <option name="totallyTimeSpent" value="92118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10247934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15041323" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0132231405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27921093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29210925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.052892562" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -734,431 +1054,483 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善" />
+    <MESSAGE value="测试私钥 公钥 证书" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试私钥 公钥 证书" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/PFXUtil.java</url>
+          <line>242</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/PFXUtil.java</url>
+          <line>241</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/CerTest.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/config/Swagger2Config.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/common/commons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/LianLianPayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/baofoo/ParseStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/statistic/SampleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/rsa/RsaReadUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/SignUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ObjectCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/sms/SmsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/BootClasspathFIile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/BootClasspathFIile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/common/RSAUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/StatusUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2074">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/LianLianPayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/PropertiesMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/RegexUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-911">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/RSAUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2716">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/SHAUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/common/sign/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/SignUtil.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-472">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="1331">
+          <caret line="1779" column="16" lean-forward="false" selection-start-line="1779" selection-start-column="16" selection-end-line="1779" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#70577#70578#0" expanded="false" />
+            <element signature="e#70627#70628#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/XmlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="54" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/PropertiesFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/ObjectCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/MD5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/Md5Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/IpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-622">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1705">
-          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/HexStringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="84">
+          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/FileMonitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test1/ValidReq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#812#813#0" expanded="false" />
+            <element signature="e#844#845#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/DateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test1/UserVerifyReq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/CreatNo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test1/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test2/TransReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test2/RsaConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test1/TransReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test2/EncryptAndDecryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/为什么要使用BouncyCastle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/CookieUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/encryptanddecrypt/test1/EncryptAndDecryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="1037">
+          <caret line="97" column="76" lean-forward="false" selection-start-line="97" selection-start-column="66" selection-end-line="97" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/BeanUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test1/SignTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="238">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/security/KeyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="170" column="28" lean-forward="false" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/CertTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/DigestAlgEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/DigitalSignatureDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/org/apache/commons/codec/Charsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="151" column="72" lean-forward="false" selection-start-line="151" selection-start-column="56" selection-end-line="151" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="260" column="25" lean-forward="false" selection-start-line="260" selection-start-column="25" selection-end-line="260" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/org/apache/commons/codec/binary/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="546" column="53" lean-forward="false" selection-start-line="546" selection-start-column="44" selection-end-line="546" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test1/CAConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59.jar!/org/bouncycastle/cert/X509v3CertificateBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/What is a Digital Signature_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test2/DataCertCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.bouncycastle.cert.X509v3CertificateBuilder">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.bouncycastle.cert.X509v3CertificateBuilder</OriginalElement>
+          <nodes>
+            <node x="" y="">org.bouncycastle.cert.X509v3CertificateBuilder</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="107.0" y="16.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59-sources.jar!/org/bouncycastle/x509/X509V3CertificateGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="44" column="66" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test1/BaseCert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="56" column="51" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59-sources.jar!/org/bouncycastle/asn1/x509/SubjectPublicKeyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1317">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/security/KeyPairGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="192" column="66" lean-forward="false" selection-start-line="185" selection-start-column="4" selection-end-line="192" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/jre/lib/rt.jar!/sun/security/x509/AlgorithmId.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59-sources.jar!/org/bouncycastle/asn1/ASN1Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59-sources.jar!/org/bouncycastle/asn1/x509/AlgorithmIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59-sources.jar!/org/bouncycastle/asn1/ASN1ObjectIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/Base64Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/utils/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3869">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59-sources.jar!/org/bouncycastle/cert/jcajce/JcaX509v3CertificateBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+        <state relative-caret-position="102">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59-sources.jar!/org/bouncycastle/cert/bc/BcX509v3CertificateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="-34">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/common/PaymentSecurity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test1/GenerateCa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4121">
-          <caret line="299" column="53" lean-forward="true" selection-start-line="299" selection-start-column="53" selection-end-line="299" selection-end-column="53" />
+        <state relative-caret-position="255">
+          <caret line="32" column="24" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="32" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/config/TestConfig.java">
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59-sources.jar!/org/bouncycastle/cert/X509v3CertificateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="194" column="104" lean-forward="false" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/Application.java">
+    <entry file="jar://C:/work/maven_repository/repository/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59-sources.jar!/org/bouncycastle/operator/DefaultSignatureAlgorithmIdentifierFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="35" />
+          <folding>
+            <element signature="e#20845#20846#0" expanded="false" />
+            <element signature="e#20888#20889#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/security/cert/X509Certificate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="347" column="27" lean-forward="false" selection-start-line="347" selection-start-column="27" selection-end-line="347" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/security/cert/Certificate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/Example.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/security/Certificate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/Sign.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/jre/lib/rt.jar!/sun/security/x509/X509CertImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="53" column="49" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/common/DataCertCreate.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/security/KeyStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="159">
+          <caret line="179" column="13" lean-forward="false" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/PfxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="95" column="48" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/PFXUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="164" column="9" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="164" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/security/test/test.java">
+    <entry file="file://$PROJECT_DIR$/常用加密解密算法【RSA、AES、DES、MD5】介绍和使用.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/cer/test2/PfxAndCerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1480">
+          <caret line="97" column="48" lean-forward="false" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/test1/pfx/CerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2579#2594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwg/demo/sign/test2/SignTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding />
         </state>
       </provider>
