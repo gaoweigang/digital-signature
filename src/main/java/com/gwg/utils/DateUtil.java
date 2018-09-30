@@ -1,11 +1,13 @@
 package com.gwg.utils;
 
+import org.junit.Test;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
+import java.util.*;
 
 public final class DateUtil {
 	private DateUtil() {
@@ -314,4 +316,58 @@ public final class DateUtil {
 
 		return cal.get(Calendar.HOUR_OF_DAY);
 	}
+
+	public static void main(String[] args) throws Exception{
+		//生成订单号
+		Set<String> orderNoSet = new HashSet<>();//Set自动去重复
+        for(int i = 1; i<=257; i++){
+        	Thread.sleep(1000);
+			String orderNo = DateUtil.dateFormat(new Date(), "YYYYMMddHHmmssSSSS");
+			System.out.println(orderNo);
+			orderNoSet.add(orderNo);
+		}
+		if(orderNoSet.size() == 257){
+			System.out.println("生成订单号没有重复");
+		}
+
+		//MD5 批量生成
+		/*String str ="47f5ab8b2e97e18e4fb9e57718eb82af10001web代付2018092617265602691537945576000";
+		String expect = "1867e8122f967d50636e4cfe0f1ecd08";
+		String encyptStr = MD5(str);
+		System.out.println(org.apache.commons.lang.StringUtils.equalsIgnoreCase(expect, encyptStr));*/
+
+	}
+
+	/**
+	 * MD5 16进制 和 32 进制加密
+	 * @param sourceStr
+	 * @return
+	 */
+	private static String MD5(String sourceStr) {
+		String result = "";
+		try {
+			MessageDigest md = MessageDigest.getInstance("MD5");
+			md.update(sourceStr.getBytes());
+			byte b[] = md.digest();
+			int i;
+			StringBuffer buf = new StringBuffer("");
+			for (int offset = 0; offset < b.length; offset++) {
+				i = b[offset];
+				if (i < 0)
+					i += 256;
+				if (i < 16)
+					buf.append("0");
+				buf.append(Integer.toHexString(i));
+			}
+			result = buf.toString();
+			System.out.println("MD5(" + sourceStr + ",32) = " + result);
+			System.out.println("MD5(" + sourceStr + ",16) = " + buf.toString().substring(8, 24));
+		} catch (NoSuchAlgorithmException e) {
+			System.out.println(e);
+		}
+		return result;
+	}
+
+
 }
+
