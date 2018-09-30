@@ -1,0 +1,44 @@
+如何将byte转换成16进制
+第一种方案：
+StringBuffer buf = new StringBuffer("");
+byte i = -1;
+if (i < 0){
+    /**
+     * 在这里加256保证i值只能占用低8位
+     * 十进制    二级制(省略前面16个0)     转byte
+     * 256  = 0000 0001 0000 0000
+     * 255  = 0000 0000 1111 1111      1111 1111  = -1在计算机中负数使用补码表示,十六进制表示ff
+     */
+    i += 256; //加256之后 就直接算出来byte负数的补码了，将补码存储在int中，可以理解为用int表示了byte补码
+}
+//16进制用0~f表示0~15
+if (i < 16) {//小于16 恰好 0~f,前面补0
+    buf.append("0");
+}
+//低4位与高4位 在Integer.toHexString中处理
+buf.append(Integer.toHexString(i));//Integer.toHexString()转16进制(字符串表示，而不是整型表示)
+
+
+第二种方案：
+char hexDigits[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e','f' };
+StringBuffer buf = new StringBuffer("");
+byte byte0 = -1;
+//将字节数组转成 16 进制的字符串来表示，每个字节采用两个字符表表示
+str[k++] = hexDigits[byte0 >>> 4 & 0xf]; //高4位运算 0xf 的二进制 00001111
+buf.append(k);
+str[k++] = hexDigits[byte0 & 0xf];//低4位运算
+buf.append(k);
+
+
+第三种方案：
+byte i = -1
+int v = i & 0xFF;
+String hv = Integer.toHexString(v);
+if (hv.length() < 2) {
+ stringBuilder.append(0);
+}
+stringBuilder.append(hv);
+
+上面是将i转化十六进制的字符串,注意这里i & 0xFF将一个byte和 0xFF进行了与运算,然后使用Integer.toHexString取得了十六进制字
+符串,可以看出i & 0xFF运算后得出的仍然是个int,那么为何要和 0xFF进行与运算呢?
+直接 Integer.toHexString(i);,将byte强转为int不行吗?答案是不行的.

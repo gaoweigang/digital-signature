@@ -100,6 +100,9 @@ https://www.cnblogs.com/leslies2/p/7442956.html
 使用X509v3CertificateBuilder生成证书
 
 
+在线进制转换工具：http://tool.oschina.net/hexconvert
+
+
 
 
 

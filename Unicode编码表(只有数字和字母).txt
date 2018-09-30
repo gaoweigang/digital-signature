@@ -1,0 +1,127 @@
+/***********(A~Z)***********************/
+     unicode字符             unicode字符code(十进制)
+1.“A”的 Unicode 编码为：            65
+                                    
+2.“B”的 Unicode 编码为：            66
+                                    
+3.“C”的 Unicode 编码为：            67
+                                    
+4.“D”的 Unicode 编码为：            68
+                                    
+5.“E”的 Unicode 编码为：            69
+                                    
+6.“F”的 Unicode 编码为：            70
+                                    
+7.“G”的 Unicode 编码为：            71
+                                    
+8.“H”的 Unicode 编码为：            72
+                                    
+9.“I”的 Unicode 编码为：            73
+                                    
+10.“J”的 Unicode 编码为：           74
+                                    
+11.“K”的 Unicode 编码为：           75
+                                    
+12.“L”的 Unicode 编码为：           76
+                                    
+13.“M”的 Unicode 编码为：           77
+                                    
+14.“N”的 Unicode 编码为：           78
+                                    
+15.“O”的 Unicode 编码为：           79
+                                    
+16.“P”的 Unicode 编码为：           80
+                                    
+17.“Q”的 Unicode 编码为：           81
+                                    
+18.“R”的 Unicode 编码为：           82
+                                    
+19.“S”的 Unicode 编码为：           83
+                                    
+20.“T”的 Unicode 编码为：           84
+                                    
+21.“U”的 Unicode 编码为：           85
+                                    
+22.“V”的 Unicode 编码为：           86
+                                    
+23.“W”的 Unicode 编码为：           87
+                                    
+24.“X”的 Unicode 编码为：           88
+                                    
+25.“Y”的 Unicode 编码为：           89
+                                    
+26.“Z”的 Unicode 编码为：           90
+
+/*************(a~z)**************************/
+1.“a”的 Unicode 编码为：            97
+                                    
+2.“b”的 Unicode 编码为：            98
+                                    
+3.“c”的 Unicode 编码为：            99
+                                    
+4.“d”的 Unicode 编码为：            100
+                                    
+5.“e”的 Unicode 编码为：            101
+                                    
+6.“f”的 Unicode 编码为：            102
+                                    
+7.“g”的 Unicode 编码为：            103
+                                    
+8.“h”的 Unicode 编码为：            104
+                                    
+9.“i”的 Unicode 编码为：            105
+
+10.“j”的 Unicode 编码为：           106
+                                    
+11.“k”的 Unicode 编码为：           107
+                                    
+12.“l”的 Unicode 编码为：           108
+                                    
+13.“m”的 Unicode 编码为：           109
+                                    
+14.“n”的 Unicode 编码为：           110
+                                    
+15.“o”的 Unicode 编码为：           111
+                                    
+16.“p”的 Unicode 编码为：           112
+                                    
+17.“q”的 Unicode 编码为：           113
+                                    
+18.“r”的 Unicode 编码为：           114
+                                    
+19.“s”的 Unicode 编码为：           115
+                                    
+20.“t”的 Unicode 编码为：           116
+                                    
+21.“u”的 Unicode 编码为：           117
+                                    
+22.“v”的 Unicode 编码为：           118
+                                    
+23.“w”的 Unicode 编码为：           119
+                                    
+24.“x”的 Unicode 编码为：           120
+                                    
+25.“y”的 Unicode 编码为：           121
+                                    
+26.“z”的 Unicode 编码为：           122
+
+/**********(0~9)**************************/
+1.“0”的 Unicode 编码为：            48
+                                    
+2.“1”的 Unicode 编码为：            49
+                                    
+3.“2”的 Unicode 编码为：            50
+                                    
+4.“3”的 Unicode 编码为：            51
+                                    
+5.“4”的 Unicode 编码为：            52
+                                    
+6.“5”的 Unicode 编码为：            53
+                                    
+7.“6”的 Unicode 编码为：            54
+                                    
+8.“7”的 Unicode 编码为：            55
+                                    
+9.“8”的 Unicode 编码为：            56
+
+10.“9”的 Unicode 编码为：           57
