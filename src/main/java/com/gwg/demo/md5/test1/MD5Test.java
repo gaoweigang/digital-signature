@@ -9,6 +9,9 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * 批量生成sign
+ * 技巧：负数在计算机中是用补码表示的，如果获得一个负数的补码呢？负1~负127的数加256获取该负数的补码
+ * -1：+256 -> 255 -> 0000 0000 1111 1111 -> 而负1的补码是 1111 1111
+ * -127 ： +256 -> 129 ->  0000 0000 1000 0001 而负-127的补码是 1000 0001
  */
 public class MD5Test {
     String str = "";
@@ -33,8 +36,7 @@ public class MD5Test {
         byte b = -127;
         int a = (int )b;
         System.out.println(a);
-        //System.out.println(Integer.toBinaryString(-1));
-        System.out.println(Integer.toBinaryString(a));
+        System.out.println(Integer.toBinaryString(-1&0xff));
 
     }
 
@@ -62,12 +64,12 @@ public class MD5Test {
                 i = b[offset];
                 if (i < 0){
                     /**
-                     * 在这里加256保证i值只能占用低8位
+                     * 负数在计算机中是用补码表示的，如果获得一个负数的补码呢？负数加256获取该负数的补码
                      * 十进制    二级制(省略前面16个0)     转byte
                      * 256  = 0000 0001 0000 0000
                      * 255  = 0000 0000 1111 1111      1111 1111  = -1在计算机中负数使用补码表示,十六进制表示ff
                      */
-                    i += 256; //加256之后 就直接算出来byte负数的补码了，将补码存储在int中，可以理解为用int表示了byte补码
+                    i += 256; //加256之后 就直接算出来byte负数的补码了，将补码存储在int中，可以理解为用int表示了byte补码,等价于i&0xff
                 }
                 //16进制用0~f表示0~15
                 if (i < 16) {//小于16 恰好 0~f,前面补0
