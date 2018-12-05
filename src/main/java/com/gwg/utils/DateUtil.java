@@ -318,15 +318,18 @@ public final class DateUtil {
 	}
 
 	public static void main(String[] args) throws Exception{
+		//System.out.println(DateUtil.addTime(DateUtil.MINITE, -7));
+
+
 		//生成订单号
 		Set<String> orderNoSet = new HashSet<>();//Set自动去重复
-        for(int i = 1; i<=257; i++){
+        for(int i = 1; i<=66; i++){
         	Thread.sleep(1000);
 			String orderNo = DateUtil.dateFormat(new Date(), "YYYYMMddHHmmssSSSS");
 			System.out.println(orderNo);
 			orderNoSet.add(orderNo);
 		}
-		if(orderNoSet.size() == 257){
+		if(orderNoSet.size() == 66){
 			System.out.println("生成订单号没有重复");
 		}
 
